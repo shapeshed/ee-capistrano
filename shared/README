@@ -1,0 +1,8 @@
+Shared files
+=====================
+
+Put shared files that you don't want to be versioned and can be shared across releases in here.
+
+If you don't want / need them in your version control use a .gitignore file to exclude the shared folder. 
+
+Example for this folder might be /images/uploads/ /FCKeditor

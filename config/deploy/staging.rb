@@ -10,9 +10,9 @@ set :use_sudo, false
 set :copy_exclude, [".git/*"] 
 set :copy_compression, :bz2
 
-role :app, "84.9.125.3"
-role :web, "84.9.125.3"
-role :db,  "84.9.125.3", :primary => true
+role :app, "yourstagingserver.com"
+role :web, "yourstagingserver.com"
+role :db,  "yourstagingserver.com", :primary => true
 
 desc "This is here to overide the original :restart"
 deploy.task :restart, :roles => :app do
