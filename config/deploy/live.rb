@@ -19,7 +19,6 @@ deploy.task :restart, :roles => :app do
   # do nothing but overide the default
 end
 
-
 ##########################################
 # Shared resources. If you have shared resources in /shared this creates symlinks
 ##########################################
@@ -28,5 +27,4 @@ end
 # task :after_symlink do
 #   run "ln -nfs #{deploy_to}/#{shared_dir}/fckeditor/ #{deploy_to}/#{current_dir}/public/fckeditor"
 #   run "ln -nfs #{deploy_to}/#{shared_dir}/images/uploads/ #{deploy_to}/#{current_dir}/public/images/uploads"
-
 # end

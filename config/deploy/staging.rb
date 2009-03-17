@@ -27,5 +27,4 @@ end
 # task :after_symlink do
 #   run "ln -nfs #{deploy_to}/#{shared_dir}/fckeditor/ #{deploy_to}/#{current_dir}/public/fckeditor"
 #   run "ln -nfs #{deploy_to}/#{shared_dir}/images/uploads/ #{deploy_to}/#{current_dir}/public/images/uploads"
-
 # end

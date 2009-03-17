@@ -5,6 +5,7 @@ set :application, "yoursite.com"
 
 ##########################################
 # Deployment stages
+# Run 'gem install capistrano-ext' to get multistage support
 ##########################################
 set :stages, %w(staging live)
 require 'capistrano/ext/multistage'
